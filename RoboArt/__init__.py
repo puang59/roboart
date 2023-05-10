@@ -15,4 +15,4 @@ __license__ = 'MIT'
 __copyright__ = 'Copyright 2023 puang59'
 __version__ = '0.0.1'
 
-from .HashFaces import roboart
+from .RoboArt import roboart

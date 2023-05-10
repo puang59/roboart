@@ -9,7 +9,15 @@ RoboArt is a basic random avatar generator which generates avatar in 4 different
 You can install RoboArt via pip:
 
 ```bash
-pip install roboart
+pip3 install -U RoboArt
+```
+
+This will install the latest version of RoboArt
+
+To update your existing RoboArt package, use:
+
+```bash
+pip3 install RoboArt - U
 ```
 
 ## Usage
@@ -17,7 +25,7 @@ pip install roboart
 Import RoboArt in your Python script and create an instance of the roboart class:
 
 ```python
-from roboart import roboart
+from RoboArt import roboart
 ra = roboart()
 ```
 
@@ -32,14 +40,17 @@ This will generate an avatar based on the provided hash value.
 ## Quick Example
 
 ```python
-from roboart import roboart
+from RoboArt import roboart
 
 ra = roboart()
 
-ra.robo("Robot") # It generates a robot avatar
-ra.monster("Monster") # It generates a monster avatar
-ra.robohead("Head") # It generates a robot head avatar
-ra.kitten('cats') # It generates a cat avatar
+# You can use any random string hash, it doesnt matter
+Robot = ra.robo("Robot") # It generates a robot avatar
+Monster = ra.monster("Monster") # It generates a monster avatar
+RoboHead = ra.robohead("Head") # It generates a robot head avatar
+Kittens = ra.kitten('cats') # It generates a cat avatar
+
+print(Robot) # prints robo
 ```
 
 ## License:
