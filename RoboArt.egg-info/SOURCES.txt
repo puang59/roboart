@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+RoboArt/RoboArt.py
+RoboArt/__init__.py
+RoboArt.egg-info/PKG-INFO
+RoboArt.egg-info/SOURCES.txt
+RoboArt.egg-info/dependency_links.txt
+RoboArt.egg-info/top_level.txt
