@@ -13,6 +13,6 @@ __title__ = 'robotart'
 __author__ = 'puang59'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2023 puang59'
-__version__ = '0.0.1'
+__version__ = '0.1.4'
 
 from .RoboArt import roboart
